@@ -9,45 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = oginshop_doan4
 build_property.RootNamespace = oginshop_doan4
-build_property.ProjectDir = D:\MVC\ogindoan\oginshop_doan4\oginshop_doan4\
+build_property.ProjectDir = E:\DMT\Project 4\oginshop\oginshop_doan4\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\MVC\ogindoan\oginshop_doan4\oginshop_doan4
+build_property.MSBuildProjectDirectory = E:\DMT\Project 4\oginshop\oginshop_doan4
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/MVC/ogindoan/oginshop_doan4/oginshop_doan4/Areas/Identity/Pages/_ViewStart.cshtml]
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/ogindoan/oginshop_doan4/oginshop_doan4/Views/Home/Index.cshtml]
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Category/CreateOrUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlT3JVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Config/CreateOrUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlnXENyZWF0ZU9yVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Config/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlnXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/ogindoan/oginshop_doan4/oginshop_doan4/Views/Home/Privacy.cshtml]
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/ogindoan/oginshop_doan4/oginshop_doan4/Views/Shared/Error.cshtml]
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Product/CreateOrUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGVPclVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/ogindoan/oginshop_doan4/oginshop_doan4/Views/Shared/_LoginPartial.cshtml]
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/ogindoan/oginshop_doan4/oginshop_doan4/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/ogindoan/oginshop_doan4/oginshop_doan4/Views/_ViewImports.cshtml]
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/ogindoan/oginshop_doan4/oginshop_doan4/Views/_ViewStart.cshtml]
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/ogindoan/oginshop_doan4/oginshop_doan4/Views/Shared/_Layout.cshtml]
+[E:/DMT/Project 4/oginshop/oginshop_doan4/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tl6ecl8o6d
