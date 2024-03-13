@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MVC\\ogindoan\\oginshop_doan4\\oginshop_doan4\\oginshop_doan4.csproj": {}
+    "E:\\DMT\\Project 4\\oginshop\\oginshop_doan4\\oginshop_doan4.csproj": {}
   },
   "projects": {
-    "D:\\MVC\\ogindoan\\oginshop_doan4\\oginshop_doan4\\oginshop_doan4.csproj": {
+    "E:\\DMT\\Project 4\\oginshop\\oginshop_doan4\\oginshop_doan4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MVC\\ogindoan\\oginshop_doan4\\oginshop_doan4\\oginshop_doan4.csproj",
+        "projectUniqueName": "E:\\DMT\\Project 4\\oginshop\\oginshop_doan4\\oginshop_doan4.csproj",
         "projectName": "oginshop_doan4",
-        "projectPath": "D:\\MVC\\ogindoan\\oginshop_doan4\\oginshop_doan4\\oginshop_doan4.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\MVC\\ogindoan\\oginshop_doan4\\oginshop_doan4\\obj\\",
+        "projectPath": "E:\\DMT\\Project 4\\oginshop\\oginshop_doan4\\oginshop_doan4.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\DMT\\Project 4\\oginshop\\oginshop_doan4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cryptography.Internal": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.11, )"
@@ -84,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

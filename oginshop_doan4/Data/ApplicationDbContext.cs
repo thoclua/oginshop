@@ -13,10 +13,15 @@ namespace oginshop_doan4.Data
 		}
 		public virtual DbSet<News> GetNews { get; set; }
 		public virtual DbSet<Product> GetProducts { get; set; }
+<<<<<<< HEAD
 
         public virtual DbSet<Category> GetCategories { get; set; }
         public virtual DbSet<Oder> GetOders { get; set; }
 		public virtual DbSet<OderDetail> GetOderDetails { get; set; }
+=======
+		public virtual DbSet<Order> GetOders { get; set; }
+		public virtual DbSet<OrderDetail> GetOderDetails { get; set; }
+>>>>>>> origin/main
 		public virtual DbSet<slide> GetBanners { get; set; }
 		public virtual DbSet<User> GetUsers { get; set; }
 		public virtual DbSet<config> GetConfigs { get; set; }  

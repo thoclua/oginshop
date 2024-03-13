@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿﻿
+<!DOCTYPE html>
 <html lang="zxx">
 
 <head>
@@ -10,7 +11,7 @@
     <title>Ogani | Template</title>
 
     <!-- Google Font -->
-  @*  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">*@
+    @*  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">*@
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="~/ogani/css/bootstrap.min.css" type="text/css">
@@ -24,9 +25,13 @@
 
     @RenderSection("Styles",false)
 </head>
+<<<<<<< HEAD
 
 <body>
 
+=======
+<body>
+>>>>>>> origin/main
 <header class="header">
     <div class="header__top">
         <div class="container">
@@ -239,6 +244,7 @@
 <script src="~/ogani/js/mixitup.min.js"></script>
 <script src="~/ogani/js/owl.carousel.min.js"></script>
 <script src="~/ogani/js/main.js"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+@await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>
