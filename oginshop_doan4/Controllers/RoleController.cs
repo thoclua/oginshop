@@ -8,12 +8,12 @@ namespace oginshop_doan4.Controllers
 {
     public class RoleController : Controller
     {
-        private IBaseRepository<Role> _RoleRepository;
+        private IBaseRepository<Role> _roleRepository;
         private ApplicationDbContext _context;
-        public RoleController(ApplicationDbContext context, IBaseRepository<Role> RoleRepository)
+        public RoleController(ApplicationDbContext context, IBaseRepository<Role> roleRepository)
         {
             _context = context;
-            _RoleRepository = RoleRepository;
+            _roleRepository = roleRepository ?? throw new ArgumentNullException(nameof(roleRepository));
         }
         public IActionResult Index()
         {
@@ -47,9 +47,8 @@ namespace oginshop_doan4.Controllers
             //Kiem tra phan trang
             var start = postModel.start;
             var length = postModel.length;
-
             //Goi vao Repository va dien cac tham so phu hop
-            var result = _RoleRepository.BuildResponseForDataTableLibrary(
+            var result = _roleRepository.BuildResponseForDataTableLibrary(
                 r => (string.IsNullOrEmpty(search)) || (
                     (!string.IsNullOrEmpty(search)) && (
                         r.Name.ToLower().Contains(search.ToLower())
@@ -77,7 +76,7 @@ namespace oginshop_doan4.Controllers
             var model = new Role();
             if (Id > 0)
             {
-                var data = _RoleRepository.GetById(Id);
+                var data = _roleRepository.GetById(Id);
                 model = data.DataRows.FirstOrDefault();
             }
 
@@ -87,14 +86,14 @@ namespace oginshop_doan4.Controllers
         [HttpPost]
         public IActionResult Save(Role entity)
         {
-            var result = _RoleRepository.Save(entity.id, entity);
+            var result = _roleRepository.Save(entity.id, entity);
             return Ok(result);
         }
 
         [HttpGet]
         public IActionResult Delete(int Id)
         {
-            var result = _RoleRepository.Delete(Id);
+            var result = _roleRepository.Delete(Id);
             return Ok(result);
         }
     }
