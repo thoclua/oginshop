@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace oginshop_doan4.Models
 {
@@ -12,7 +13,10 @@ namespace oginshop_doan4.Models
 
 		public decimal? Price { get; set; } = 0;
 
-		public decimal? Rating { get; set; } = 0;
+		public Boolean? Sale { get; set; }
+
+		[Range(1,5)]
+		public int? Rating { get; set; } = 0;
 
 		public int? Quantity { get; set; } = 0;
 
