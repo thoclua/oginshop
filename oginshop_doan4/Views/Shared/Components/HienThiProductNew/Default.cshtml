@@ -4,8 +4,7 @@
 
 	@foreach (var item in Model)
 	{
-        <div class="latest-product__slider owl-carousel">
-            <div class="latest-prdouct__slider__item">
+        
                 <a href="#" class="latest-product__item">
                     <div class="latest-product__item__pic">
                         <img src="@item.Inmage" alt="">
@@ -33,7 +32,7 @@
                         <span>$30.00</span>
                     </div>
                 </a>*@
-            </div>
+           @* </div>
             <div class="latest-prdouct__slider__item">
                  <a href="#" class="latest-product__item">
                     <div class="latest-product__item__pic">
@@ -43,7 +42,7 @@
                         <h6>@item.Name</h6>
                         <span>@item.Price</span>
                     </div>
-                </a>
+                </a>*@
                 @*<a href="#" class="latest-product__item">
                     <div class="latest-product__item__pic">
                         <img src="img/latest-product/lp-2.jpg" alt="">
@@ -62,8 +61,7 @@
                         <span>$30.00</span>
                     </div>
                 </a>*@
-            </div>
-        </div>
+            
 	}
 
 }

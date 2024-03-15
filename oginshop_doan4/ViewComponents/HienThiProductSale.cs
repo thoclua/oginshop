@@ -13,10 +13,10 @@ namespace oginshop_doan4.ViewComponents
         }
         public IViewComponentResult Invoke()
         {
-            List<Product> saleProducts = _db.GetProducts.Where(item => item.Sale == true).Take(3).ToList();
+            var saleProducts = _db.GetProducts.Where(item => item.Sale == true).Take(3).ToList();
 
 
-            return View( saleProducts);
+            return View(saleProducts);
         }
     }
 }

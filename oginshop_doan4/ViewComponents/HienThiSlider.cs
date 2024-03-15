@@ -14,7 +14,7 @@ namespace oginshop_doan4.ViewComponents
 
         public IViewComponentResult Invoke()
         {
-            slide selectedBanner = _db.GetBanners.Where(item => item.id == 1 || item.id == 2).FirstOrDefault() ?? new slide();
+            var selectedBanner = _db.GetBanners.Where(item => item.id == 1 || item.id == 2).ToList();
             return View(selectedBanner);
         }
     }

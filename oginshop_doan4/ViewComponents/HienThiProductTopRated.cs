@@ -13,9 +13,9 @@ namespace oginshop_doan4.ViewComponents
         }
         public IViewComponentResult Invoke()
         {
-            List<Product> TopRatedProducts = _db.GetProducts.Where(item => item.Rating > 3).Take(3).ToList();
+            var TopRatedProducts = _db.GetProducts.Where(item => item.Rating > 3).Take(3).ToList();
 
-            return View( TopRatedProducts);
+            return View(TopRatedProducts);
         }
     }
 }
