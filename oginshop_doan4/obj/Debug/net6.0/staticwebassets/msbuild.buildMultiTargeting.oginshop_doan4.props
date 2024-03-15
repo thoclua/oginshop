@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\oginshop_doan4.props" />
+</Project>
