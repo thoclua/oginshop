@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using oginshop_doan4.Data;
 using oginshop_doan4.DataTransferObject;
 using oginshop_doan4.Models;
@@ -67,7 +68,7 @@ namespace oginshop_doan4.Controllers
 
 
 
-            return Ok(result);
+            return View(result);
         }
 
         [HttpGet]
@@ -88,14 +89,14 @@ namespace oginshop_doan4.Controllers
         public IActionResult Save(Order entity)
         {
             var result = _OrderRepository.Save(entity.id, entity);
-            return Ok(result);
+            return View(result);
         }
 
         [HttpGet]
         public IActionResult Delete(int Id)
         {
             var result = _OrderRepository.Delete(Id);
-            return Ok(result);
+            return View(result);
         }
     }
 }

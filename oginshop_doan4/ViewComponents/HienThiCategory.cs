@@ -12,7 +12,7 @@ namespace oginshop_doan4.ViewComponents
         }
         public IViewComponentResult Invoke()
         {
-            var item = _db.GetCategories.Take(4).ToList();
+            var item = _db.GetCategories.ToList();
             return View(item);
         }
     }

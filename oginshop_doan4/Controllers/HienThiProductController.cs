@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using oginshop_doan4.Data;
+using System.Linq;
+
 
 namespace oginshop_doan4.Controllers
 {
@@ -10,10 +12,34 @@ namespace oginshop_doan4.Controllers
         {
             _db = db;
         }
-        public IActionResult Index()
+        public IActionResult Index(int Id)
         {
-            return View();
+            var items = _db.GetProducts.ToList();
+            if (Id > 0)
+            {
+                items = items.Where(p => p.CategoryId == Id).ToList();
+            }
+           
+            return View(items);
         }
+        public ActionResult _Category(int Id)
+        {
+            var items = _db.GetProducts.ToList();
+            if (Id > 0)
+            {
+                items = items.Where(p => p.CategoryId == Id).ToList();
+            }
+
+            return View("_category",items);
+        }
+        public IActionResult Detail(int id)
+        {
+            var item = _db.GetProducts.Find(id);
+
+
+            return View(item);
+        }
+
 
     }
 }

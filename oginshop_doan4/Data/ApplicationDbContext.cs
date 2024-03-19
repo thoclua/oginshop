@@ -10,6 +10,7 @@ namespace oginshop_doan4.Data
 		public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
 			: base(options)
 		{
+			SeedDB.SeedData(this);
 		}
 		public virtual DbSet<News> GetNews { get; set; }
 		public virtual DbSet<Product> GetProducts { get; set; }

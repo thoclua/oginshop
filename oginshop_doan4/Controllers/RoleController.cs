@@ -67,7 +67,7 @@ namespace oginshop_doan4.Controllers
 
 
 
-            return Ok(result);
+            return View(result);
         }
 
         [HttpGet]
@@ -81,21 +81,21 @@ namespace oginshop_doan4.Controllers
                 model = data.DataRows.FirstOrDefault();
             }
 
-            return PartialView(model);
+            return View(model);
         }
 
         [HttpPost]
         public IActionResult Save(Role entity)
         {
             var result = _RoleRepository.Save(entity.id, entity);
-            return Ok(result);
+            return View(result);
         }
 
         [HttpGet]
         public IActionResult Delete(int Id)
         {
             var result = _RoleRepository.Delete(Id);
-            return Ok(result);
+            return View(result);
         }
     }
 }

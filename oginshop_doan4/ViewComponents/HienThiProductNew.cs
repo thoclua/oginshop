@@ -16,7 +16,7 @@ namespace oginshop_doan4.ViewComponents
             DateTime startDate = endDate.AddDays(-10); // Trừ 10 ngày từ thời điểm hiện tại
 
             var productsInTimeRange = _db.GetProducts
-                .Where(p => p.CreatedDate >= startDate && p.CreatedDate <= endDate).Take(6)
+                .Where(p => p.CreatedDate >= startDate && p.CreatedDate <= endDate).Take(3)
                 .ToList();
             return View( productsInTimeRange);
         }

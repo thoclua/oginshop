@@ -1,23 +1,22 @@
-﻿@model IEnumerable<Product>
+﻿@model IEnumerable<Category>
 @if (Model != null && Model.Any())
 {
 
     @foreach (var item in Model)
     {
-        
-                    <div class="featured__item" >
-                        <div class="featured__item__pic set-bg" data-setbg="@item.Inmage">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">@item.Name</a></h6>
-                            <h5>@item.Price</h5>
-                        </div>
-                    </div>
+
+        <ul>
+            <li><a href="/HienThiProduct/_Category/@item.id">@item.Name</a></li>
+            @*<li><a href="#">Vegetables</a></li>
+            <li><a href="#">Fruit & Nut Gifts</a></li>
+            <li><a href="#">Fresh Berries</a></li>
+            <li><a href="#">Ocean Foods</a></li>
+            <li><a href="#">Butter & Eggs</a></li>
+            <li><a href="#">Fastfood</a></li>
+            <li><a href="#">Fresh Onion</a></li>
+            <li><a href="#">Papayaya & Crisps</a></li>
+            <li><a href="#">Oatmeal</a></li>*@
+        </ul>
                 
 
 

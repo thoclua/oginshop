@@ -15,11 +15,8 @@ namespace oginshop_doan4.ViewComponents
         public IViewComponentResult Invoke(int Id)
         {
 
-            var items = _db.GetProducts.ToList();
-            if (Id > 0)
-            {
-                items = items.Where(p => p.CategoryId == Id).ToList();
-            }
+            var items = _db.GetCategories.ToList();
+           
            
             return View(items);
         }
